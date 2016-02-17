@@ -18,6 +18,15 @@ exports.setup = function(parsoidConfig) {
  parsoidConfig.setMwApi({ domain: 'it.direct.wikitolearn.org', uri: 'http://it.direct.wikitolearn.org/api.php' });
  parsoidConfig.setMwApi({ domain: 'es.direct.wikitolearn.org', uri: 'http://es.direct.wikitolearn.org/api.php' });
  parsoidConfig.setMwApi({ domain: 'en.direct.wikitolearn.org', uri: 'http://en.direct.wikitolearn.org/api.php' });
+ parsoidConfig.setMwApi({ domain: 'de.wikitolearn.vodka', uri: 'http://de.wikitolearn.vodka/api.php' });
+ parsoidConfig.setMwApi({ domain: 'pt.wikitolearn.vodka', uri: 'http://pt.wikitolearn.vodka/api.php' });
+ parsoidConfig.setMwApi({ domain: 'sv.wikitolearn.vodka', uri: 'http://sv.wikitolearn.vodka/api.php' });
+ parsoidConfig.setMwApi({ domain: 'meta.wikitolearn.vodka', uri: 'http://meta.wikitolearn.vodka/api.php' });
+ parsoidConfig.setMwApi({ domain: 'fr.wikitolearn.vodka', uri: 'http://fr.wikitolearn.vodka/api.php' });
+ parsoidConfig.setMwApi({ domain: 'pool.wikitolearn.vodka', uri: 'http://pool.wikitolearn.vodka/api.php' });
+ parsoidConfig.setMwApi({ domain: 'it.wikitolearn.vodka', uri: 'http://it.wikitolearn.vodka/api.php' });
+ parsoidConfig.setMwApi({ domain: 'es.wikitolearn.vodka', uri: 'http://es.wikitolearn.vodka/api.php' });
+ parsoidConfig.setMwApi({ domain: 'en.wikitolearn.vodka', uri: 'http://en.wikitolearn.vodka/api.php' });
  parsoidConfig.setMwApi({ domain: 'de.tuttorotto.biz', uri: 'http://de.tuttorotto.biz/api.php' });
  parsoidConfig.setMwApi({ domain: 'pt.tuttorotto.biz', uri: 'http://pt.tuttorotto.biz/api.php' });
  parsoidConfig.setMwApi({ domain: 'sv.tuttorotto.biz', uri: 'http://sv.tuttorotto.biz/api.php' });

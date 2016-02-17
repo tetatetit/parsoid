@@ -1,6 +1,6 @@
 #!/bin/bash
 # list of supported domains
-domains="wikitolearn.org direct.wikitolearn.org tuttorotto.biz tuttorotto.eu tuttorotto.org tuttorotto.it"
+domains="wikitolearn.org direct.wikitolearn.org wikitolearn.vodka tuttorotto.biz tuttorotto.eu tuttorotto.org tuttorotto.it"
 # list of supported subdomain
 langs="de pt sv meta fr pool it es en"
 {
