@@ -1,2 +1,2 @@
 #!/bin/bash
-node api/server.js
+exec node api/server.js
