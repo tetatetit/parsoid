@@ -1,4 +1,6 @@
 FROM node:5
+ADD ./sources.list /etc/apt/sources.list
+
 RUN git clone https://gerrit.wikimedia.org/r/p/mediawiki/services/parsoid && cd parsoid && git checkout v0.4.1 && rm -Rfv .git/
 
 WORKDIR parsoid
