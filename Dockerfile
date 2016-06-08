@@ -1,15 +1,13 @@
 FROM node:5
 ADD ./sources.list /etc/apt/sources.list
 
-RUN git clone https://gerrit.wikimedia.org/r/p/mediawiki/services/parsoid && cd parsoid && git checkout v0.4.1 && rm -Rfv .git/
+RUN git clone https://gerrit.wikimedia.org/r/p/mediawiki/services/parsoid && cd parsoid && git checkout v0.4.1 && rm -Rf .git/
 
 WORKDIR parsoid
 
-RUN npm install
+RUN npm install && rm -Rf /tmp/npm-* /root/.npm/
 
 EXPOSE 8000
-
-ADD ./localsettings.js /parsoid/api/
 
 ADD ./kickstart.sh /
 RUN chmod +x /kickstart.sh

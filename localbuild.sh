@@ -1,2 +1,4 @@
 #!/bin/bash
-docker build -t wikitolearn/parsoid:0.1.2 .
+cd $(dirname "$(readlink -f $0)")
+docker build -t wikitolearn/parsoid:0.1.4 .
+
