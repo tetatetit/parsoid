@@ -15,6 +15,8 @@ langs="de pt sv meta fr pool it es en"
  echo " parsoidConfig.loadWMF = false;"
  echo " parsoidConfig.useSelser = true;"
  echo "};"
-} > /parsoid/api/localsettings.js
+} > /parsoid/localsettings.js
 
-exec node api/server.js
+cd /parsoid
+
+exec npm start
