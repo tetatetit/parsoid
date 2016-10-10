@@ -5,7 +5,7 @@ then
   exit 1
 fi
 # list of supported subdomain
-langs="it en de es fr pt sv ca meta pool"
+langs="ru it en de es fr pt sv ca meta pool"
 {
  echo "'use strict';"
  echo "exports.setup = function(parsoidConfig) {"
